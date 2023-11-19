@@ -1,0 +1,49 @@
+/* UserList.css */
+
+.user-list {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+  }
+  
+  .user-list-title {
+    font-size: 2.5rem;
+    font-family: 'Dancing Script', cursive;
+    text-align: center;
+    color: #2196F3;
+  }
+  
+  .user-list-items {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .user-list-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    border-radius: 4px;
+    margin-bottom: 10px;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: all 0.2s ease-in-out;
+    cursor: pointer;
+    &:hover {
+      background-color: #f2f2f2;
+    }
+  }
+  
+  .user-list-item-name {
+    font-size: 18px;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  .user-list-item-email {
+    font-size: 14px;
+    color: #007bff;
+  }
+  
